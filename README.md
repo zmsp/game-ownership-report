@@ -7,6 +7,8 @@ Generates an interactive HTML report of your game library from:
 
 Includes game titles, developers, descriptions, genres, platform info, install status, cover art, and store links.
 
+
+![Screenshot](image.png)
 ---
 
 ## Requirements
