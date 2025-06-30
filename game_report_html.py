@@ -257,15 +257,16 @@ def build_html_report(gog, epic, amazon, steam):
   <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
   <script src="https://cdn.datatables.net/responsive/2.5.3/js/dataTables.responsive.min.js"></script>
   <script src="https://cdn.datatables.net/responsive/2.5.3/js/responsive.bootstrap5.min.js"></script>
+  
   <script>
     $(document).ready(function () {{
-      $('#games').DataTable({{
-        responsive: true,
-        pageLength: 50,
-        lengthMenu: [[10, 50, 100, -1], [10, 50, 100, "All"]],
-        dom: '<"row mb-3"<"col-md-6"l><"col-md-6 text-end"B>>rt<"row mt-3"<"col-md-6"i><"col-md-6"p>>',
-        buttons: ['copy', 'csv', 'excel', 'print'],
-        order: [[1, 'asc']]
+        $('#games').DataTable({{
+            responsive: true,
+            pageLength: 50,
+            lengthMenu: [[10, 50, 100, -1], [10, 50, 100, "All"]],
+            dom: '<"row mb-3"<"col-md-4"l><"col-md-4"B><"col-md-4"f>>rt<"row mt-3"<"col-md-6"i><"col-md-6"p>>',
+            buttons: ['copy', 'csv', 'excel', 'print'],
+            order: [[1, 'asc']]
       }});
     }});
   </script>

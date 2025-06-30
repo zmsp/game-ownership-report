@@ -137,7 +137,7 @@ if __name__ == "__main__":
     steam_games = fetch_steam_games(args.steam_user)
 
     csv_data = build_csv_report(gog_games, epic_games, amazon_games, steam_games)
-    with open(args.output, "w", encoding="utf-8") as f:
+    with open(args.output, "w", encoding="utf-8-sig") as f:
         f.write(csv_data)
 
     print(f"CSV report saved to {args.output}")
