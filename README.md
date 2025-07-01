@@ -73,13 +73,6 @@ python3 game_report_html_ai.py \
   --output "./docs/index.html"
 ```
 
-### Generate a CSV Export (optional)
-
-```bash
-python3 game_report_csv.py --steam-user YOUR_STEAM_ID
-```
-
----
 
 ## Enriching Metadata with OpenAI (optional)
 
@@ -114,6 +107,3 @@ Instead of passing arguments each time, you can create a `config.txt` file in th
 
 Each line represents a separate argument.
 
----
-
-Let me know if you'd like to include deployment instructions (for GitHub Pages, for example) or a sample output.

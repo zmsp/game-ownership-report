@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Game Library Report</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+  <link href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.bootstrap5.min.css" rel="stylesheet">
+  <link href="https://cdn.datatables.net/responsive/2.5.3/css/responsive.bootstrap5.min.css" rel="stylesheet">
+  <link href="https://cdn.datatables.net/colreorder/1.6.2/css/colReorder.bootstrap5.min.css" rel="stylesheet">
+  <style>
+    body { padding: 2rem; font-family: sans-serif; }
+    .cover { max-height: 250px; border-radius: 6px; max-width: 250px; }
+    .dt-buttons .btn { margin-right: 0.5rem; }
+    td { vertical-align: top; }
+    tbody tr:hover { background-color: #f8f9fa; }
+    table.dataTable th:first-child, table.dataTable td:first-child { width: 200px; }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <h1 class="mb-4 text-center">Game Library Report</h1>
+   
+      <table id="games" class="table table-bordered table-striped table-hover nowrap" style="width:100%">
+        <thead class="table-light">
+       <tr>
+        <th>Game</th> <!-- Title & Cover -->
+        <th>Platform</th>
+        <th>Status</th>
+        <th>Dev</th>
+        <th>Genres</th>
+        <th>Rating</th>
+        <th>Tier</th>
+        <th>Year</th>
+        <th>To Beat</th>
+        <th>To 100%</th>
+        <th>Complexity</th>
+        <th>Mood</th>
+        <th>Replay</th>
+        <th>Best For</th>
+        <th>Energy</th>
+        <th>Deck</th>
+        <th>Deck Notes</th>
+        <th>Summary</th>
+        <th>Desc</th>
+        <th>Links</th>
+        </tr>
+        </thead>
+        <tbody>
+          
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.gog.com/en/game/galaxy_common_redistributables" target="_blank"><img src="https://images.gog-statics.com/516af877f6a03199526d1ce5a76358b8f85f6b828764cf46c820f77ae8832fc5.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Galaxy Common Redistributables (DLC)</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">GOG</div></td>
+        <td><div class="text-wrap text-break">Installed</div></td>
+        <td><div class="text-wrap text-break">Unknown</div></td>
+        <td><div class="text-wrap text-break">Downloadable Content,Expansion Pack</div></td>
+        <td><div class="text-wrap text-break">6</div></td>
+        <td><div class="text-wrap text-break">C</div></td>
+                <td><div class="text-wrap text-break">Unknown</div></td>
+        <td><div class="text-wrap text-break">2</div></td>
+        <td><div class="text-wrap text-break">4</div></td>
+        <td><div class="text-wrap text-break">Simple</div></td>
+        <td><div class="text-wrap text-break">Neutral,Informative</div></td>
+        <td><div class="text-wrap text-break">Low</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Low</div></td>
+        <td><div class="text-wrap text-break">3 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Playable with some adjustments">Playable with some adjustments</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="A useful addition for fans of the base game looking to expand their experience. It may not appeal to new players or those seeking a standalone experience.">A useful addition for fans of the base game looking to expand their experience. It may not appeal to new players or thos...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Galaxy Common Redistributables (DLC) is an add-on that expands the base game&#x27;s content, offering new features, missions, or enhancements for players. It is designed to enrich the gaming experience without requiring a new game purchase.">Galaxy Common Redistributables (DLC) is an add-on that expands the base game&#x27;s content, offering new features, missions,...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Galaxy%20Common%20Redistributables%20%28DLC%29" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Galaxy%20Common%20Redistributables%20%28DLC%29" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Galaxy%20Common%20Redistributables%20%28DLC%29" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Galaxy%20Common%20Redistributables%20%28DLC%29&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Galaxy%20Common%20Redistributables%20%28DLC%29" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Galaxy%20Common%20Redistributables%20%28DLC%29" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/galaxy-common-redistributables-%28dlc%29" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/galaxy-common-redistributables-%28dlc%29" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Galaxy%2520Common%2520Redistributables%2520%28DLC%29" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.gog.com/en/game/prey" target="_blank"><img src="https://images.gog.com/d93a046d3654929200462cf3dab3905eeb6c9a2c5681ccdae0ad0d654b01424d.jpg?namespace=gamesdb" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Prey </div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">GOG</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Arkane Studios</div></td>
+        <td><div class="text-wrap text-break">Role-playing (RPG), Adventure, Puzzle, Shooter</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">S</div></td>
+                <td><div class="text-wrap text-break">2017</div></td>
+        <td><div class="text-wrap text-break">15</div></td>
+        <td><div class="text-wrap text-break">30</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Suspense, Sci-fi, Action, Horror</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance, controls adapted for Steam Deck">Good performance, controls adapted for Steam Deck</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Prey offers a compelling blend of stealth, exploration, and mind-bending abilities that make for an engaging experience. However, its complex mechanics and challenging gameplay may not appeal to all players.">Prey offers a compelling blend of stealth, exploration, and mind-bending abilities that make for an engaging experience....</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="In Prey, you awaken aboard Talos I, a space station orbiting the moon in the year 2032. You are the key subject of an experiment meant to alter humanity forever – but things have gone terribly wrong. The space station has been overrun by hostile aliens and you are now being hunted. As you dig into the dark secrets of Talos I and your own past, you must survive using the tools found on the station, your wits, weapons, and mind-bending abilities.">In Prey, you awaken aboard Talos I, a space station orbiting the moon in the year 2032. You are the key subject of an ex...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Prey%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Prey%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Prey%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Prey%20&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Prey%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Prey%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/prey-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/prey-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Prey%2520" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.gog.com/en/game/samorost_1" target="_blank"><img src="https://images.gog.com/b7fb8949dcbc63cad756b5628209a9b30090f6e46cc8c9b3aba17394ad921b38.jpg?namespace=gamesdb" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Samorost 1 </div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">GOG</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Amanita Design</div></td>
+        <td><div class="text-wrap text-break">Adventure, Indie, Puzzle, Point-and-click</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">A</div></td>
+                <td><div class="text-wrap text-break">2005</div></td>
+        <td><div class="text-wrap text-break">1.5</div></td>
+        <td><div class="text-wrap text-break">2.5</div></td>
+        <td><div class="text-wrap text-break">Simple</div></td>
+        <td><div class="text-wrap text-break">Whimsical, Surreal, Relaxing</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Low</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance, suitable for casual play">Good performance, suitable for casual play</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Samorost offers a charming and unique puzzle experience that delights with its art and atmosphere. However, its short length and limited gameplay depth may not satisfy players seeking a longer or more challenging adventure.">Samorost offers a charming and unique puzzle experience that delights with its art and atmosphere. However, its short le...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Samorost is a short point-and-click adventure game. The goal is to help the little space gnome save his home asteroid from a collision with another asteroid by solving diverse puzzles.">Samorost is a short point-and-click adventure game. The goal is to help the little space gnome save his home asteroid fr...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Samorost%201%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Samorost%201%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Samorost%201%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Samorost%201%20&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Samorost%201%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Samorost%201%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/samorost-1-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/samorost-1-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Samorost%25201%2520" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.gog.com/en/game/openttd" target="_blank"><img src="https://images.gog.com/759121088a266150a268ce165bf3a33e76e76fc9118feb6f8f6688d8100939e8.jpg?namespace=gamesdb" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">OpenTTD </div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">GOG</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">OpenTTD Team</div></td>
+        <td><div class="text-wrap text-break">Strategy, Indie, Simulator</div></td>
+        <td><div class="text-wrap text-break">8.5</div></td>
+        <td><div class="text-wrap text-break">A</div></td>
+                <td><div class="text-wrap text-break">2004</div></td>
+        <td><div class="text-wrap text-break">50</div></td>
+        <td><div class="text-wrap text-break">150</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Strategic, Creative, Relaxing</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo, Multiplayer</div></td>
+        <td><div class="text-wrap text-break">Low</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Fully compatible with Steam Deck, optimized for portable play">Fully compatible with Steam Deck, optimized for portable play</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="OpenTTD offers deep strategic gameplay with extensive customization options, making it highly replayable. However, its complexity and slow pace may not appeal to players seeking fast-paced action.">OpenTTD offers deep strategic gameplay with extensive customization options, making it highly replayable. However, its c...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="OpenTTD is a business simulation game in which players earn money by transporting passengers and cargo via road, rail, water, and air. It is an open-source remake and expansion of the 1995 Chris Sawyer video game Transport Tycoon Deluxe. 
+ 
+Build 
+Connect industries and cities on procedurally-generated maps of up to 4096 x 4096 tiles by building a network of roads, railways, docks, and airports. Navigate dense city streets, cross oceans and rivers, and conquer high mountains in one of four climates. 
+ 
+Transport 
+Work alone or with friends to complete production chains and transport finished goods to towns. Assemble a fleet of hundreds of vehicles, transferring cargo as needed in an interconnected, multimodal network with optional cargo destinations. 
+ 
+Upgrade 
+Keep up with technological improvements through the years as towns grow; new modes of transport are invented; and industries appear, change production, or fail. Expand stations and build network capacity to keep up with demand and avoid delays. 
+ 
+Extend 
+Customize your OpenTTD experience via community-made mods downloaded through an in-game content service, including real-world vehicles, new industry sets, custom scenarios, and more. 
+ 
+Free and open-source 
+OpenTTD is free and open-source software, licensed under the GNU General Public License version 2.0. OpenTTD is under ongoing development. OpenTTD is not an abbreviation of anything.">OpenTTD is a business simulation game in which players earn money by transporting passengers and cargo via road, rail, w...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=OpenTTD%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=OpenTTD%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=OpenTTD%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=OpenTTD%20&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=OpenTTD%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=OpenTTD%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/openttd-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/openttd-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=OpenTTD%2520" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.gog.com/en/game/siege_survival_gloria_victis_prologue" target="_blank"><img src="https://images.gog.com/c53f035e65fccbed54cfbae7aaab1bc7416452b086bb9f483e6a9a95cf39be6f.webp?namespace=gamesdb" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Siege Survival: Gloria Victis Prologue </div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">GOG</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">FishTankStudio</div></td>
+        <td><div class="text-wrap text-break">Strategy, Survival, Simulation</div></td>
+        <td><div class="text-wrap text-break">7</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">3</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Tense, Strategic, Survival</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good, optimized for Steam Deck">Good, optimized for Steam Deck</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Engage in tense resource management and strategic defense to experience the origins of the siege. It offers challenging gameplay but may be too niche for casual players.">Engage in tense resource management and strategic defense to experience the origins of the siege. It offers challenging ...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="The Prologue, a free standalone version of Siege Survival: Gloria Victis, shows the origins of the invasion. Craft supplies, scavenge resources in the fallen city and provide the last soldiers with everything they need to hold the castle against the overwhelming enemy forces.">The Prologue, a free standalone version of Siege Survival: Gloria Victis, shows the origins of the invasion. Craft suppl...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Siege%20Survival%3A%20Gloria%20Victis%20Prologue%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Siege%20Survival%3A%20Gloria%20Victis%20Prologue%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Siege%20Survival%3A%20Gloria%20Victis%20Prologue%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Siege%20Survival%3A%20Gloria%20Victis%20Prologue%20&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Siege%20Survival%3A%20Gloria%20Victis%20Prologue%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Siege%20Survival%3A%20Gloria%20Victis%20Prologue%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/siege-survival-gloria-victis-prologue-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/siege-survival-gloria-victis-prologue-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Siege%2520Survival%3A%2520Gloria%2520Victis%2520Prologue%2520" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.gog.com/en/game/janosik" target="_blank"><img src="https://images.gog.com/5e4fdafe5865bbde9fc18541b8aecbbd3b02e369f55782c438024b03642f8d81.jpg?namespace=gamesdb" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Janosik </div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">GOG</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Onix Games</div></td>
+        <td><div class="text-wrap text-break">Adventure, Indie, Platform</div></td>
+        <td><div class="text-wrap text-break">7</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">3</div></td>
+        <td><div class="text-wrap text-break">6</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Retro, Challenging, Action</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance expected with optimized controls">Good performance expected with optimized controls</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Janosik offers a nostalgic retro experience with engaging platforming and exploration. However, its difficulty may not appeal to casual players.">Janosik offers a nostalgic retro experience with engaging platforming and exploration. However, its difficulty may not a...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Challenging retro pixel graphics action-platformer. Become a legendary rogue Janosik and explore the big mountain castle level full of secrets.">Challenging retro pixel graphics action-platformer. Become a legendary rogue Janosik and explore the big mountain castle...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Janosik%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Janosik%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Janosik%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Janosik%20&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Janosik%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Janosik%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/janosik-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/janosik-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Janosik%2520" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.gog.com/en/game/bio_menace" target="_blank"><img src="https://images.gog.com/62260f6bc0f9921d44a9acbbb18999ecf0677b17d8b6414aa330936e26668882.jpg?namespace=gamesdb" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Bio Menace </div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">GOG</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Apogee Software</div></td>
+        <td><div class="text-wrap text-break">Platform, Puzzle</div></td>
+        <td><div class="text-wrap text-break">7</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">1993</div></td>
+        <td><div class="text-wrap text-break">2</div></td>
+        <td><div class="text-wrap text-break">4</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Action, Adventure, Sci-Fi</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">3 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance, suitable for portable gaming">Good performance, suitable for portable gaming</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Bio Menace offers classic platform and puzzle gameplay with intense action and a compelling storyline. It may feel dated or too challenging for casual players.">Bio Menace offers classic platform and puzzle gameplay with intense action and a compelling storyline. It may feel dated...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Intelligence reports indicate that a man calling himself Dr. Mangle is responsible for the mutants and the destruction of Metro. You will have to battle your way through levels packed with evil mutants and robotic guards to finally infiltrate Mangle&#x27;s fortress and defeat him. You think to yourself that this will be the most dangerous mission of your life.
+
+Snake Logan is a weapons expert, and uses several throughout the game, including a high-powered machine gun and grenades.">Intelligence reports indicate that a man calling himself Dr. Mangle is responsible for the mutants and the destruction o...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Bio%20Menace%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Bio%20Menace%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Bio%20Menace%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Bio%20Menace%20&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Bio%20Menace%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Bio%20Menace%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/bio-menace-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/bio-menace-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Bio%2520Menace%2520" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.gog.com/en/game/planet_of_lana" target="_blank"><img src="https://images.gog.com/1ce4a98115742b83b247cafeb5ef7e90096ad0dfedab5d71a47f0dd702430501.jpg?namespace=gamesdb" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Planet of Lana </div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">GOG</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Wishfully</div></td>
+        <td><div class="text-wrap text-break">Adventure, Indie, Platform, Puzzle</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">A</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">12</div></td>
+        <td><div class="text-wrap text-break">20</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Adventurous, Emotional, Sci-Fi, Colorful</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">5 - Verified</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Optimized for Steam Deck, runs smoothly with good controls">Optimized for Steam Deck, runs smoothly with good controls</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Experience a visually stunning and emotionally engaging puzzle adventure that offers a rich sci-fi story. However, it may not appeal to those seeking fast-paced or highly competitive gameplay.">Experience a visually stunning and emotionally engaging puzzle adventure that offers a rich sci-fi story. However, it ma...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="A young girl and her loyal friend embark on a rescue mission through a colorful world full of cold machines and unfamiliar creatures. Planet of Lana is a cinematic puzzle adventure framed by an epic sci-fi saga that stretches across centuries and galaxies.">A young girl and her loyal friend embark on a rescue mission through a colorful world full of cold machines and unfamili...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Planet%20of%20Lana%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Planet%20of%20Lana%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Planet%20of%20Lana%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Planet%20of%20Lana%20&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Planet%20of%20Lana%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Planet%20of%20Lana%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/planet-of-lana-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/planet-of-lana-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Planet%2520of%2520Lana%2520" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.gog.com/en/game/delores_a_thimbleweed_park_mini-adventure" target="_blank"><img src="https://images.gog.com/e1ffe379f5ee4b64eb0ee2775c97ba8a7196bd0a17bb535281913b04052f36f1.webp?namespace=gamesdb" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Delores: A Thimbleweed Park Mini-Adventure </div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">GOG</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Terrible Toybox</div></td>
+        <td><div class="text-wrap text-break">Adventure, Indie</div></td>
+        <td><div class="text-wrap text-break">7</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">1</div></td>
+        <td><div class="text-wrap text-break">2</div></td>
+        <td><div class="text-wrap text-break">Simple</div></td>
+        <td><div class="text-wrap text-break">Humorous, Nostalgic, Quirky</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Low</div></td>
+        <td><div class="text-wrap text-break">4 - Playable on Steam Deck</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good">Good</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="A charming mini-adventure that offers a nostalgic peek into Thimbleweed Park&#x27;s world, perfect for quick play sessions. It may not satisfy players seeking a deep or lengthy experience.">A charming mini-adventure that offers a nostalgic peek into Thimbleweed Park&#x27;s world, perfect for quick play sessions. I...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Delores is back home and working as a photographer for the Nickel News. Thimbleweed Park hasn’t changed at all in the year she’s been away… or has it? Sample Ron Gilbert’s new adventure game engine in this free prototype that uses “found art” from the award-winning Thimbleweed Park.">Delores is back home and working as a photographer for the Nickel News. Thimbleweed Park hasn’t changed at all in the ye...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Delores%3A%20A%20Thimbleweed%20Park%20Mini-Adventure%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Delores%3A%20A%20Thimbleweed%20Park%20Mini-Adventure%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Delores%3A%20A%20Thimbleweed%20Park%20Mini-Adventure%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Delores%3A%20A%20Thimbleweed%20Park%20Mini-Adventure%20&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Delores%3A%20A%20Thimbleweed%20Park%20Mini-Adventure%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Delores%3A%20A%20Thimbleweed%20Park%20Mini-Adventure%20" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/delores-a-thimbleweed-park-mini-adventure-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/delores-a-thimbleweed-park-mini-adventure-" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Delores%3A%2520A%2520Thimbleweed%2520Park%2520Mini-Adventure%2520" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.epicgames.com/store/product/electrician-simulator" target="_blank"><img src="https://cdn1.epicgames.com/spt-assets/d0be4faac92a49ebae039c0e0d386e42/electrician-simulator-wzzjd.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Electrician Simulator</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Epic</div></td>
+        <td><div class="text-wrap text-break">Owned via Epic</div></td>
+        <td><div class="text-wrap text-break">Gaming Factory</div></td>
+        <td><div class="text-wrap text-break">Simulation,Puzzle,Casual</div></td>
+        <td><div class="text-wrap text-break">6</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">4</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Educational,Relaxing,Casual</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Low</div></td>
+        <td><div class="text-wrap text-break">3 - Playable on Steam Deck</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance expected, optimized for handheld play">Good performance expected, optimized for handheld play</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Electrician Simulator offers a unique and educational experience into the electrician profession, perfect for casual players interested in learning new skills. However, its simple gameplay may not satisfy those seeking a more intense or complex simulation.">Electrician Simulator offers a unique and educational experience into the electrician profession, perfect for casual pla...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Take on the electrician role and learn the profession&#x27;s basics! Install sockets, repair worn-out equipment, assemble broken appliances, replace light bulbs, and lay wires at your customers&#x27; homes. Be sure to check everything twice, with electricity there are no jokes!">Take on the electrician role and learn the profession&#x27;s basics! Install sockets, repair worn-out equipment, assemble bro...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Electrician%20Simulator" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Electrician%20Simulator" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Electrician%20Simulator" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Electrician%20Simulator&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Electrician%20Simulator" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Electrician%20Simulator" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/electrician-simulator" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/electrician-simulator" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Electrician%2520Simulator" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.epicgames.com/store/product/kao-the-kangaroo-vip-dlc" target="_blank"><img src="https://cdn1.epicgames.com/spt-assets/4a2dcb55ecca496aaaf328f60263bb56/kao-the-kangaroo-yd6zf.png" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Kao the Kangaroo: VIP DLC</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Epic</div></td>
+        <td><div class="text-wrap text-break">Owned via Epic</div></td>
+        <td><div class="text-wrap text-break">Tate Multimedia</div></td>
+        <td><div class="text-wrap text-break">Platform,Adventure</div></td>
+        <td><div class="text-wrap text-break">6</div></td>
+        <td><div class="text-wrap text-break">C</div></td>
+                <td><div class="text-wrap text-break"></div></td>
+        <td><div class="text-wrap text-break">2</div></td>
+        <td><div class="text-wrap text-break">4</div></td>
+        <td><div class="text-wrap text-break">Simple</div></td>
+        <td><div class="text-wrap text-break">Fun,Colorful,Lighthearted</div></td>
+        <td><div class="text-wrap text-break">Low</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Low</div></td>
+        <td><div class="text-wrap text-break">3 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Playable with some adjustments, suitable for casual gaming">Playable with some adjustments, suitable for casual gaming</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="This DLC offers a fresh experience for fans of Kao the Kangaroo, adding new content and customization options. However, as a DLC, it may not provide enough content for new players or those seeking a complete game experience.">This DLC offers a fresh experience for fans of Kao the Kangaroo, adding new content and customization options. However, ...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Future proof your fashion sense with this all new DLC pack for Kao The Kangaroo!">Future proof your fashion sense with this all new DLC pack for Kao The Kangaroo!</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Kao%20the%20Kangaroo%3A%20VIP%20DLC" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Kao%20the%20Kangaroo%3A%20VIP%20DLC" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Kao%20the%20Kangaroo%3A%20VIP%20DLC" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Kao%20the%20Kangaroo%3A%20VIP%20DLC&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Kao%20the%20Kangaroo%3A%20VIP%20DLC" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Kao%20the%20Kangaroo%3A%20VIP%20DLC" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/kao-the-kangaroo-vip-dlc" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/kao-the-kangaroo-vip-dlc" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Kao%2520the%2520Kangaroo%3A%2520VIP%2520DLC" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.epicgames.com/store/product/fall-guys" target="_blank"><img src="https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/FGSS04_KeyArt_OfferImageLandscape_2560x1440_2560x1440-89c8edd4ffe307f5d760f286a28c3404" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Fall Guys</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Epic</div></td>
+        <td><div class="text-wrap text-break">Owned via Epic</div></td>
+        <td><div class="text-wrap text-break">EGFG LLC</div></td>
+        <td><div class="text-wrap text-break">Party,Platform,Multiplayer</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">A</div></td>
+                <td><div class="text-wrap text-break">2020</div></td>
+        <td><div class="text-wrap text-break">10</div></td>
+        <td><div class="text-wrap text-break">15</div></td>
+        <td><div class="text-wrap text-break">Simple</div></td>
+        <td><div class="text-wrap text-break">Fun,Humorous,Chaotic,Lighthearted</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Party (Local),Multiplayer</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Optimized for Steam Deck with good performance and controls">Optimized for Steam Deck with good performance and controls</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Fall Guys offers a fun and chaotic multiplayer experience perfect for parties and casual gaming. However, it may become repetitive for players seeking deep gameplay or long-term challenges.">Fall Guys offers a fun and chaotic multiplayer experience perfect for parties and casual gaming. However, it may become ...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Fall Guys">Fall Guys</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Fall%20Guys" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Fall%20Guys" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Fall%20Guys" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Fall%20Guys&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Fall%20Guys" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Fall%20Guys" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/fall-guys" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/fall-guys" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Fall%2520Guys" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.epicgames.com/store/product/bramble-the-mountain-king" target="_blank"><img src="https://cdn1.epicgames.com/spt-assets/ab87c9bafafd49fdaeb1069044a8d105/bramble-the-mountain-king-rzbgk.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Bramble The Mountain King</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Epic</div></td>
+        <td><div class="text-wrap text-break">Owned via Epic</div></td>
+        <td><div class="text-wrap text-break">Merge Games</div></td>
+        <td><div class="text-wrap text-break">Adventure, Puzzle, Platformer</div></td>
+        <td><div class="text-wrap text-break">7.5</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">12</div></td>
+        <td><div class="text-wrap text-break">25</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Dark, Atmospheric, Adventure</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Optimized for Steam Deck, smooth performance expected">Optimized for Steam Deck, smooth performance expected</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="An engaging adventure with immersive gameplay and a captivating story that will keep you hooked. However, its challenging puzzles and dark themes may not appeal to all players.">An engaging adventure with immersive gameplay and a captivating story that will keep you hooked. However, its challengin...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Bramble The Mountain King">Bramble The Mountain King</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Bramble%20The%20Mountain%20King" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Bramble%20The%20Mountain%20King" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Bramble%20The%20Mountain%20King" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Bramble%20The%20Mountain%20King&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Bramble%20The%20Mountain%20King" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Bramble%20The%20Mountain%20King" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/bramble-the-mountain-king" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/bramble-the-mountain-king" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Bramble%2520The%2520Mountain%2520King" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.epicgames.com/store/product/shop-titans" target="_blank"><img src="https://cdn1.epicgames.com/spt-assets/8ae16e8a55fa4f3897fa726a90dbd750/shop-titans-offer-1wny0.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Shop Titans</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Epic</div></td>
+        <td><div class="text-wrap text-break">Owned via Epic</div></td>
+        <td><div class="text-wrap text-break">Kabam Games, Inc.</div></td>
+        <td><div class="text-wrap text-break">Simulation, Tycoon, Adventure</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">A</div></td>
+                <td><div class="text-wrap text-break">2018</div></td>
+        <td><div class="text-wrap text-break">20</div></td>
+        <td><div class="text-wrap text-break">50</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Casual, Fun, Engaging</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Low</div></td>
+        <td><div class="text-wrap text-break">5 - Verified</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Optimized for Steam Deck, smooth performance">Optimized for Steam Deck, smooth performance</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="A fun and engaging tycoon game that combines shop management with hero adventures, perfect for casual players. However, it may lack depth for those seeking complex gameplay.">A fun and engaging tycoon game that combines shop management with hero adventures, perfect for casual players. However, ...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Design and build a thriving shop in this tycoon simulation adventure! Outfit your heroes and champions with epic gear, and send them on quests to defeat powerful bosses!">Design and build a thriving shop in this tycoon simulation adventure! Outfit your heroes and champions with epic gear, a...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Shop%20Titans" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Shop%20Titans" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Shop%20Titans" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Shop%20Titans&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Shop%20Titans" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Shop%20Titans" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/shop-titans" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/shop-titans" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Shop%2520Titans" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.epicgames.com/store/product/mythforce" target="_blank"><img src="https://cdn1.epicgames.com/spt-assets/c4099459877a4e47a6b927032f32ed41/mythforce-1uo18.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">MythForce</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Epic</div></td>
+        <td><div class="text-wrap text-break">Owned via Epic</div></td>
+        <td><div class="text-wrap text-break">Beamdog</div></td>
+        <td><div class="text-wrap text-break">Action,Adventure,Roguelike</div></td>
+        <td><div class="text-wrap text-break">7</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">15</div></td>
+        <td><div class="text-wrap text-break">25</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Retro,Humorous,Challenging,Fantasy</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo,Couch Co-op</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance with some adjustments needed for optimal play">Good performance with some adjustments needed for optimal play</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="MythForce offers a nostalgic roguelike experience with charming visuals and engaging gameplay, perfect for fans of retro-inspired adventures. However, its difficulty and repetitive elements might not appeal to everyone seeking a casual experience.">MythForce offers a nostalgic roguelike experience with charming visuals and engaging gameplay, perfect for fans of retro...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="MythForce">MythForce</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=MythForce" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=MythForce" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=MythForce" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=MythForce&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=MythForce" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=MythForce" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/mythforce" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/mythforce" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=MythForce" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.epicgames.com/store/product/jurassic-world-evolution" target="_blank"><img src="https://cdn1.epicgames.com/047392e91d5e4cfdb19e2767440ab206/item/EGS_JurassicWorldEvolution_FrontierDevelopments_S1-2560x1440-65771d1c16c9c78bfd4764bf0ad54d9a.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Jurassic World Evolution</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Epic</div></td>
+        <td><div class="text-wrap text-break">Owned via Epic</div></td>
+        <td><div class="text-wrap text-break">Frontier Developments</div></td>
+        <td><div class="text-wrap text-break">Simulation,Strategy,Management</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">A</div></td>
+                <td><div class="text-wrap text-break">2018</div></td>
+        <td><div class="text-wrap text-break">25</div></td>
+        <td><div class="text-wrap text-break">50</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Exciting,Strategic,Creative</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance with some adjustments">Good performance with some adjustments</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="A captivating park management sim that lets you create and oversee your own dinosaur theme park. However, its complexity and time investment might be daunting for casual players.">A captivating park management sim that lets you create and oversee your own dinosaur theme park. However, its complexity...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Jurassic World Evolution">Jurassic World Evolution</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Jurassic%20World%20Evolution" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Jurassic%20World%20Evolution" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Jurassic%20World%20Evolution" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Jurassic%20World%20Evolution&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Jurassic%20World%20Evolution" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Jurassic%20World%20Evolution" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/jurassic-world-evolution" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/jurassic-world-evolution" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Jurassic%2520World%2520Evolution" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.epicgames.com/store/product/warframe" target="_blank"><img src="https://cdn1.epicgames.com/spt-assets/9cd9aa0477474023a6cdf18823e481c6/warframe-16rwn.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Warframe</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Epic</div></td>
+        <td><div class="text-wrap text-break">Owned via Epic</div></td>
+        <td><div class="text-wrap text-break">Digital Extremes</div></td>
+        <td><div class="text-wrap text-break">Action,Shooter,MMORPG</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">A</div></td>
+                <td><div class="text-wrap text-break">2013</div></td>
+        <td><div class="text-wrap text-break">20</div></td>
+        <td><div class="text-wrap text-break">50</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Futuristic,Fast-paced,Cooperative</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo,Party (Local)</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Runs well with some adjustments, suitable for most players">Runs well with some adjustments, suitable for most players</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Warframe offers fast-paced cooperative gameplay with a vast array of customization options, making it highly engaging for players who enjoy sci-fi shooters. However, its steep learning curve and grind may deter casual gamers.">Warframe offers fast-paced cooperative gameplay with a vast array of customization options, making it highly engaging fo...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Warframe">Warframe</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Warframe" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Warframe" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Warframe" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Warframe&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Warframe" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Warframe" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/warframe" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/warframe" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Warframe" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://www.epicgames.com/store/product/europa-universalis-iv-songs-of-yuletide" target="_blank"><img src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_EuropaUniversalisIVSongsofYuletide_ParadoxDevelopmentStudio_DLC_S1_2560x1440-cbfd0d023c74111663477f18098c24ce_2560x1440-cbfd0d023c74111663477f18098c24ce" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Europa Universalis IV: Songs of Yuletide</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Epic</div></td>
+        <td><div class="text-wrap text-break">Owned via Epic</div></td>
+        <td><div class="text-wrap text-break">Paradox Interactive</div></td>
+        <td><div class="text-wrap text-break"></div></td>
+        <td><div class="text-wrap text-break">7</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">20</div></td>
+        <td><div class="text-wrap text-break">50</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Festive, Historical, Strategy</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance with some adjustments needed">Good performance with some adjustments needed</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="A charming holiday-themed expansion that adds festive music and events to Europa Universalis IV, perfect for history and strategy fans. It may not appeal to those seeking fast-paced gameplay or non-historical content.">A charming holiday-themed expansion that adds festive music and events to Europa Universalis IV, perfect for history and...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Europa Universalis IV: Songs of Yuletide">Europa Universalis IV: Songs of Yuletide</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Europa%20Universalis%20IV%3A%20Songs%20of%20Yuletide" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Europa%20Universalis%20IV%3A%20Songs%20of%20Yuletide" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Europa%20Universalis%20IV%3A%20Songs%20of%20Yuletide" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Europa%20Universalis%20IV%3A%20Songs%20of%20Yuletide&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Europa%20Universalis%20IV%3A%20Songs%20of%20Yuletide" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Europa%20Universalis%20IV%3A%20Songs%20of%20Yuletide" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/europa-universalis-iv-songs-of-yuletide" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/europa-universalis-iv-songs-of-yuletide" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Europa%2520Universalis%2520IV%3A%2520Songs%2520of%2520Yuletide" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <img src="https://m.media-amazon.com/images/I/71mNp7ReQ5L.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Narcos</div>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Amazon</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Curve Digital</div></td>
+        <td><div class="text-wrap text-break">Strategy</div></td>
+        <td><div class="text-wrap text-break">6</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">10</div></td>
+        <td><div class="text-wrap text-break">20</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Tense, Strategic</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo, Party (Local)</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance with some adjustments needed">Good performance with some adjustments needed</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Narcos offers a fresh strategic challenge weekly, making it engaging for fans of tactical gameplay. However, its repetitive nature may not appeal to players seeking variety or deep storylines.">Narcos offers a fresh strategic challenge weekly, making it engaging for fans of tactical gameplay. However, its repetit...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="New game each week with Prime">New game each week with Prime</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Narcos" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Narcos" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Narcos" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Narcos&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Narcos" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Narcos" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/narcos" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/narcos" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Narcos" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <img src="https://m.media-amazon.com/images/I/51JOeIKounL.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Steredenn</div>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Amazon</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Plug In Digital</div></td>
+        <td><div class="text-wrap text-break">Shooter, Indie, Arcade</div></td>
+        <td><div class="text-wrap text-break">7</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2017</div></td>
+        <td><div class="text-wrap text-break">3</div></td>
+        <td><div class="text-wrap text-break">10</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Exciting, Challenging, Fast-paced</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Runs well with some adjustments, suitable for handheld gaming">Runs well with some adjustments, suitable for handheld gaming</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Steredenn offers intense, procedurally generated shooting action that keeps you hooked with its variety and challenge. However, its difficulty might be frustrating for casual players seeking a relaxed experience.">Steredenn offers intense, procedurally generated shooting action that keeps you hooked with its variety and challenge. H...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="New game each week with Prime">New game each week with Prime</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Steredenn" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Steredenn" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Steredenn" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Steredenn&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Steredenn" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Steredenn" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/steredenn" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/steredenn" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Steredenn" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <img src="https://m.media-amazon.com/images/I/71SqMEdLAyL.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">American Fugitive</div>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Amazon</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Fallen Tree Games Ltd</div></td>
+        <td><div class="text-wrap text-break">Adventure, Indie</div></td>
+        <td><div class="text-wrap text-break">6</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">20</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Suspense, Open-world, Narrative</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance, suitable for portable gaming">Good performance, suitable for portable gaming</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="American Fugitive offers an engaging open-world experience with dynamic gameplay and a compelling story. However, its repetitive missions and limited multiplayer options may reduce long-term appeal.">American Fugitive offers an engaging open-world experience with dynamic gameplay and a compelling story. However, its re...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="New game each week with Prime">New game each week with Prime</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=American%20Fugitive" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=American%20Fugitive" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=American%20Fugitive" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=American%20Fugitive&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=American%20Fugitive" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=American%20Fugitive" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/american-fugitive" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/american-fugitive" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=American%2520Fugitive" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <img src="https://m.media-amazon.com/images/I/71j3PrHc95L.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">White Night</div>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Amazon</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">OSome Studio</div></td>
+        <td><div class="text-wrap text-break">Puzzle, Adventure</div></td>
+        <td><div class="text-wrap text-break">6</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">3</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Mystery, Suspense, Dark</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance, optimized for Steam Deck">Good performance, optimized for Steam Deck</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="White Night offers a unique weekly puzzle experience that keeps gameplay fresh and engaging. However, its repetitive mechanics might not appeal to players seeking deep storylines or variety.">White Night offers a unique weekly puzzle experience that keeps gameplay fresh and engaging. However, its repetitive mec...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="New game each week with Prime">New game each week with Prime</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=White%20Night" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=White%20Night" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=White%20Night" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=White%20Night&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=White%20Night" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=White%20Night" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/white-night" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/white-night" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=White%2520Night" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <img src="https://m.media-amazon.com/images/I/81Yt+JQwY9L.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Demon Hunter 2: New Chapter</div>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Amazon</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Brave Giant LTD</div></td>
+        <td><div class="text-wrap text-break">Puzzle, Adventure</div></td>
+        <td><div class="text-wrap text-break">7</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">20</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Mystery, Supernatural, Suspense</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Runs well with some control adjustments">Runs well with some control adjustments</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="You should play this game for its intriguing puzzles and immersive story, perfect for fans of supernatural mysteries. However, it may feel repetitive for players seeking fast-paced action or varied gameplay.">You should play this game for its intriguing puzzles and immersive story, perfect for fans of supernatural mysteries. Ho...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Demon Hunter 2: New Chapter is a captivating puzzle adventure where players solve intricate mysteries and fight supernatural forces. Its engaging storyline and challenging gameplay make it a compelling choice for fans of the genre.">Demon Hunter 2: New Chapter is a captivating puzzle adventure where players solve intricate mysteries and fight supernat...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Demon%20Hunter%202%3A%20New%20Chapter" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Demon%20Hunter%202%3A%20New%20Chapter" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Demon%20Hunter%202%3A%20New%20Chapter" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Demon%20Hunter%202%3A%20New%20Chapter&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Demon%20Hunter%202%3A%20New%20Chapter" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Demon%20Hunter%202%3A%20New%20Chapter" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/demon-hunter-2-new-chapter" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/demon-hunter-2-new-chapter" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Demon%2520Hunter%25202%3A%2520New%2520Chapter" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <img src="https://m.media-amazon.com/images/I/81s3xHIOB4L.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Liberated</div>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Amazon</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Atomic Wolf</div></td>
+        <td><div class="text-wrap text-break">Platform, Role-playing (RPG), Adventure</div></td>
+        <td><div class="text-wrap text-break">8.2</div></td>
+        <td><div class="text-wrap text-break">A</div></td>
+                <td><div class="text-wrap text-break">2020</div></td>
+        <td><div class="text-wrap text-break">12</div></td>
+        <td><div class="text-wrap text-break">20</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Cyberpunk, Dystopian, Action, Narrative</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance, suitable for Steam Deck">Good performance, suitable for Steam Deck</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Liberated offers a unique blend of storytelling and gameplay set in a vibrant cyberpunk universe, making it a must-play for fans of narrative-driven adventures. However, its moderate difficulty and story-heavy focus may not appeal to players seeking fast-paced action or multiplayer experiences.">Liberated offers a unique blend of storytelling and gameplay set in a vibrant cyberpunk universe, making it a must-play ...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Liberated is a graphic novel-style cyberpunk adventure game that combines platforming, storytelling, and role-playing elements to immerse players in a dystopian world. It features a compelling narrative, stylish visuals, and choices that impact the story.">Liberated is a graphic novel-style cyberpunk adventure game that combines platforming, storytelling, and role-playing el...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Liberated" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Liberated" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Liberated" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Liberated&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Liberated" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Liberated" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/liberated" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/liberated" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Liberated" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <img src="https://m.media-amazon.com/images/I/81cN-NP9x7L.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">BAFL - Brakes Are For Losers</div>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Amazon</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Oudidon</div></td>
+        <td><div class="text-wrap text-break">Racing, Arcade, Card &amp; Board Game</div></td>
+        <td><div class="text-wrap text-break">7</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2022</div></td>
+        <td><div class="text-wrap text-break">3</div></td>
+        <td><div class="text-wrap text-break">10</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Fun, Quirky, Competitive</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo, Couch Co-op</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Optimized for Steam Deck with good performance">Optimized for Steam Deck with good performance</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Play BAFL for a unique racing experience that combines strategy and fast-paced action. Avoid if you prefer straightforward racing without additional mechanics.">Play BAFL for a unique racing experience that combines strategy and fast-paced action. Avoid if you prefer straightforwa...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="BAFL - Brakes Are For Losers is a fast-paced racing game blending arcade-style driving with card and board game mechanics, offering a unique twist on traditional racing. It features quirky visuals and challenging gameplay that tests both reflexes and strategy.">BAFL - Brakes Are For Losers is a fast-paced racing game blending arcade-style driving with card and board game mechanic...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=BAFL%20-%20Brakes%20Are%20For%20Losers" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=BAFL%20-%20Brakes%20Are%20For%20Losers" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=BAFL%20-%20Brakes%20Are%20For%20Losers" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=BAFL%20-%20Brakes%20Are%20For%20Losers&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=BAFL%20-%20Brakes%20Are%20For%20Losers" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=BAFL%20-%20Brakes%20Are%20For%20Losers" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/bafl---brakes-are-for-losers" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/bafl---brakes-are-for-losers" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=BAFL%2520-%2520Brakes%2520Are%2520For%2520Losers" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <img src="https://m.media-amazon.com/images/I/81HS69LgcCL.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Secret Files: Sam Peters</div>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Amazon</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Animation Arts</div></td>
+        <td><div class="text-wrap text-break">Point-and-click, Puzzle, Adventure</div></td>
+        <td><div class="text-wrap text-break">7</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2006</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">20</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Mystery,Intrigue,Story-rich</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">3 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Runs well with some adjustments for controls">Runs well with some adjustments for controls</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Play this game for its engaging storyline and challenging puzzles that will test your detective skills. However, it may feel dated or slow for players seeking fast-paced action.">Play this game for its engaging storyline and challenging puzzles that will test your detective skills. However, it may ...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Secret Files: Sam Peters is a captivating adventure game that combines engaging puzzles with a compelling storyline, offering players a rich narrative experience. It features well-designed environments and challenging mysteries that keep players immersed from start to finish.">Secret Files: Sam Peters is a captivating adventure game that combines engaging puzzles with a compelling storyline, off...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Secret%20Files%3A%20Sam%20Peters" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Secret%20Files%3A%20Sam%20Peters" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Secret%20Files%3A%20Sam%20Peters" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Secret%20Files%3A%20Sam%20Peters&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Secret%20Files%3A%20Sam%20Peters" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Secret%20Files%3A%20Sam%20Peters" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/secret-files-sam-peters" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/secret-files-sam-peters" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Secret%2520Files%3A%2520Sam%2520Peters" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <img src="https://m.media-amazon.com/images/I/81oltwGL2+L.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Crypto Against All Odds</div>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Amazon</div></td>
+        <td><div class="text-wrap text-break">Not installed</div></td>
+        <td><div class="text-wrap text-break">Pictagor</div></td>
+        <td><div class="text-wrap text-break">Simulator, Strategy, Indie</div></td>
+        <td><div class="text-wrap text-break">7</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">20</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Educational, Competitive, Tense</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable on Steam Deck</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance expected, optimized for portable gaming">Good performance expected, optimized for portable gaming</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Crypto Against All Odds offers an engaging blend of strategy and education for players interested in cryptocurrency trading. However, its complexity may be daunting for newcomers to the genre.">Crypto Against All Odds offers an engaging blend of strategy and education for players interested in cryptocurrency trad...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Crypto Against All Odds is a strategic simulation game where players navigate the volatile world of cryptocurrency trading, making decisions to maximize profits while managing risks. It combines engaging gameplay with educational elements about blockchain and investment strategies.">Crypto Against All Odds is a strategic simulation game where players navigate the volatile world of cryptocurrency tradi...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Crypto%20Against%20All%20Odds" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Crypto%20Against%20All%20Odds" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Crypto%20Against%20All%20Odds" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Crypto%20Against%20All%20Odds&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Crypto%20Against%20All%20Odds" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Crypto%20Against%20All%20Odds" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/crypto-against-all-odds" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/crypto-against-all-odds" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Crypto%2520Against%2520All%2520Odds" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://store.steampowered.com/app/570" target="_blank"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Dota 2</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Steam</div></td>
+        <td><div class="text-wrap text-break">Owned on Steam</div></td>
+        <td><div class="text-wrap text-break">Valve Corporation</div></td>
+        <td><div class="text-wrap text-break">Multiplayer Online Battle Arena (MOBA),Strategy</div></td>
+        <td><div class="text-wrap text-break">9</div></td>
+        <td><div class="text-wrap text-break">S</div></td>
+                <td><div class="text-wrap text-break">2013</div></td>
+        <td><div class="text-wrap text-break">40</div></td>
+        <td><div class="text-wrap text-break">100</div></td>
+        <td><div class="text-wrap text-break">Complex</div></td>
+        <td><div class="text-wrap text-break">Competitive,Intense,Strategic</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Party (Local),Online Multiplayer</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">5 - Verified</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Fully playable with optimized controls and performance">Fully playable with optimized controls and performance</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Dota 2 offers deep strategic gameplay and a vibrant competitive scene, making it a must-play for fans of multiplayer strategy games. However, its steep learning curve and intense pace might be overwhelming for newcomers.">Dota 2 offers deep strategic gameplay and a vibrant competitive scene, making it a must-play for fans of multiplayer str...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Dota 2 is a competitive multiplayer online battle arena game where two teams of five players battle to destroy the opposing team&#x27;s Ancient. It features deep strategic gameplay, a vast roster of heroes, and a highly active community.">Dota 2 is a competitive multiplayer online battle arena game where two teams of five players battle to destroy the oppos...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Dota%202" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Dota%202" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Dota%202" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Dota%202&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Dota%202" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Dota%202" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/dota-2" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/dota-2" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Dota%25202" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://store.steampowered.com/app/438100" target="_blank"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/438100/header.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">VRChat</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Steam</div></td>
+        <td><div class="text-wrap text-break">Owned on Steam</div></td>
+        <td><div class="text-wrap text-break">VRChat Inc.</div></td>
+        <td><div class="text-wrap text-break">Social, Virtual Reality, Adventure</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">A</div></td>
+                <td><div class="text-wrap text-break">2017</div></td>
+        <td><div class="text-wrap text-break">2</div></td>
+        <td><div class="text-wrap text-break">10</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Social,Creative,Immersive,Fun</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Party (Local),Solo</div></td>
+        <td><div class="text-wrap text-break">Low</div></td>
+        <td><div class="text-wrap text-break">5 - Verified</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Fully compatible with Steam Deck, optimized for portable VR experiences">Fully compatible with Steam Deck, optimized for portable VR experiences</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="VRChat is a vibrant social platform perfect for meeting new people and exploring creative virtual worlds. However, it may require a VR headset and internet connection, which could be a barrier for some players.">VRChat is a vibrant social platform perfect for meeting new people and exploring creative virtual worlds. However, it ma...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="VRChat is a social platform where users can create, share, and explore virtual worlds and avatars in an immersive VR environment. It offers endless opportunities for social interaction, creativity, and entertainment.">VRChat is a social platform where users can create, share, and explore virtual worlds and avatars in an immersive VR env...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=VRChat" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=VRChat" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=VRChat" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=VRChat&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=VRChat" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=VRChat" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/vrchat" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/vrchat" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=VRChat" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://store.steampowered.com/app/289070" target="_blank"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/289070/header.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Sid Meier&#x27;s Civilization VI</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Steam</div></td>
+        <td><div class="text-wrap text-break">Owned on Steam</div></td>
+        <td><div class="text-wrap text-break">Firaxis Games</div></td>
+        <td><div class="text-wrap text-break">Turn-based strategy, 4X</div></td>
+        <td><div class="text-wrap text-break">9</div></td>
+        <td><div class="text-wrap text-break">S</div></td>
+                <td><div class="text-wrap text-break">2016</div></td>
+        <td><div class="text-wrap text-break">50</div></td>
+        <td><div class="text-wrap text-break">100</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Strategic, Educational, Competitive</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">5 - Verified</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Full controller support, optimized for Steam Deck">Full controller support, optimized for Steam Deck</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="A must-play for strategy enthusiasts seeking deep gameplay and replayability. It may be overwhelming for new players due to its complexity.">A must-play for strategy enthusiasts seeking deep gameplay and replayability. It may be overwhelming for new players due...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Sid Meier&#x27;s Civilization VI is a turn-based strategy game where players build and expand their civilization from ancient times to the modern age, making strategic decisions on diplomacy, technology, and culture.">Sid Meier&#x27;s Civilization VI is a turn-based strategy game where players build and expand their civilization from ancient...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Sid%20Meier%27s%20Civilization%20VI" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Sid%20Meier%27s%20Civilization%20VI" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Sid%20Meier%27s%20Civilization%20VI" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Sid%20Meier%27s%20Civilization%20VI&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Sid%20Meier%27s%20Civilization%20VI" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Sid%20Meier%27s%20Civilization%20VI" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/sid-meiers-civilization-vi" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/sid-meiers-civilization-vi" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Sid%2520Meier%27s%2520Civilization%2520VI" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://store.steampowered.com/app/572890" target="_blank"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/572890/header.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Pikuniku</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Steam</div></td>
+        <td><div class="text-wrap text-break">Owned on Steam</div></td>
+        <td><div class="text-wrap text-break">Pleasantly Interactive</div></td>
+        <td><div class="text-wrap text-break">Adventure, Puzzle, Indie</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">A</div></td>
+                <td><div class="text-wrap text-break">2019</div></td>
+        <td><div class="text-wrap text-break">4</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Humorous, Whimsical, Charming, Satirical</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">Solo, Couch Co-op</div></td>
+        <td><div class="text-wrap text-break">Low</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance, suitable for portable gaming">Good performance, suitable for portable gaming</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Pikuniku offers a delightful blend of humor and puzzles that make for an engaging experience. However, its simple mechanics may not satisfy players seeking complex gameplay.">Pikuniku offers a delightful blend of humor and puzzles that make for an engaging experience. However, its simple mechan...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Pikuniku is a quirky adventure puzzle game set in a strange and colorful world where players explore, solve puzzles, and uncover secrets while engaging with a humorous storyline and unique characters.">Pikuniku is a quirky adventure puzzle game set in a strange and colorful world where players explore, solve puzzles, and...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Pikuniku" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Pikuniku" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Pikuniku" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Pikuniku&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Pikuniku" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Pikuniku" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/pikuniku" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/pikuniku" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Pikuniku" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://store.steampowered.com/app/397540" target="_blank"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/397540/header.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Borderlands 3</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Steam</div></td>
+        <td><div class="text-wrap text-break">Owned on Steam</div></td>
+        <td><div class="text-wrap text-break">Gearbox Software</div></td>
+        <td><div class="text-wrap text-break">First-Person Shooter, Action Role-Playing, Loot Shooter</div></td>
+        <td><div class="text-wrap text-break">8.5</div></td>
+        <td><div class="text-wrap text-break">A</div></td>
+                <td><div class="text-wrap text-break">2019</div></td>
+        <td><div class="text-wrap text-break">30</div></td>
+        <td><div class="text-wrap text-break">60</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Humorous, Action-packed, Sci-fi</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo, Couch Co-op, Split-Screen, Party (Local)</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Runs well with some adjustments, suitable for most players">Runs well with some adjustments, suitable for most players</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Borderlands 3 is an exciting loot shooter with a humorous storyline and extensive weapon customization, perfect for cooperative play. However, its repetitive gameplay and lengthy grind might not appeal to all players.">Borderlands 3 is an exciting loot shooter with a humorous storyline and extensive weapon customization, perfect for coop...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Borderlands 3 is a chaotic and humorous loot shooter set on the alien planet Pandora and beyond, featuring a vast array of weapons, characters, and missions. It offers a blend of FPS gameplay with RPG elements, emphasizing cooperative multiplayer and extensive customization.">Borderlands 3 is a chaotic and humorous loot shooter set on the alien planet Pandora and beyond, featuring a vast array ...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Borderlands%203" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Borderlands%203" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Borderlands%203" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Borderlands%203&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Borderlands%203" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Borderlands%203" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/borderlands-3" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/borderlands-3" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Borderlands%25203" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://store.steampowered.com/app/2371130" target="_blank"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2371130/header.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Duels of Fortune</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Steam</div></td>
+        <td><div class="text-wrap text-break">Owned on Steam</div></td>
+        <td><div class="text-wrap text-break">Unknown</div></td>
+        <td><div class="text-wrap text-break">Card game, Strategy</div></td>
+        <td><div class="text-wrap text-break">7</div></td>
+        <td><div class="text-wrap text-break">B</div></td>
+                <td><div class="text-wrap text-break">2023</div></td>
+        <td><div class="text-wrap text-break">5</div></td>
+        <td><div class="text-wrap text-break">15</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Competitive, Strategic, Exciting</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo, Local Versus</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance, optimized controls">Good performance, optimized controls</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Duels of Fortune offers engaging strategic gameplay perfect for quick matches and competitive play. However, its reliance on luck may frustrate players seeking pure skill-based challenges.">Duels of Fortune offers engaging strategic gameplay perfect for quick matches and competitive play. However, its relianc...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Duels of Fortune is a strategic card game where players compete in duels using decks of customizable cards, emphasizing tactical decision-making and luck.">Duels of Fortune is a strategic card game where players compete in duels using decks of customizable cards, emphasizing ...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Duels%20of%20Fortune" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Duels%20of%20Fortune" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Duels%20of%20Fortune" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Duels%20of%20Fortune&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Duels%20of%20Fortune" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Duels%20of%20Fortune" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/duels-of-fortune" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/duels-of-fortune" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Duels%2520of%2520Fortune" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://store.steampowered.com/app/225080" target="_blank"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/225080/header.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Brothers - A Tale of Two Sons</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Steam</div></td>
+        <td><div class="text-wrap text-break">Owned on Steam</div></td>
+        <td><div class="text-wrap text-break">Starbreeze Studios</div></td>
+        <td><div class="text-wrap text-break">Adventure,Puzzle,Indie</div></td>
+        <td><div class="text-wrap text-break">9</div></td>
+        <td><div class="text-wrap text-break">S</div></td>
+                <td><div class="text-wrap text-break">2013</div></td>
+        <td><div class="text-wrap text-break">3.5</div></td>
+        <td><div class="text-wrap text-break">6</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Emotional,Story-rich,Adventure</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">Solo</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Played on Steam Deck</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Playable with some adjustments, controls work well">Playable with some adjustments, controls work well</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Experience a touching story told through innovative gameplay that emphasizes emotional connection. Avoid if you prefer fast-paced or combat-focused games.">Experience a touching story told through innovative gameplay that emphasizes emotional connection. Avoid if you prefer f...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Brothers - A Tale of Two Sons is a heartfelt adventure game where players control two brothers on a quest to find a cure for their father&#x27;s illness. The game features innovative gameplay mechanics and a touching story told without dialogue.">Brothers - A Tale of Two Sons is a heartfelt adventure game where players control two brothers on a quest to find a cure...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Brothers%20-%20A%20Tale%20of%20Two%20Sons" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Brothers%20-%20A%20Tale%20of%20Two%20Sons" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Brothers%20-%20A%20Tale%20of%20Two%20Sons" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Brothers%20-%20A%20Tale%20of%20Two%20Sons&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Brothers%20-%20A%20Tale%20of%20Two%20Sons" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Brothers%20-%20A%20Tale%20of%20Two%20Sons" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/brothers---a-tale-of-two-sons" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/brothers---a-tale-of-two-sons" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Brothers%2520-%2520A%2520Tale%2520of%2520Two%2520Sons" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://store.steampowered.com/app/2325290" target="_blank"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2325290/header.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Sky: Children of the Light</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Steam</div></td>
+        <td><div class="text-wrap text-break">Owned on Steam</div></td>
+        <td><div class="text-wrap text-break">thatgamecompany</div></td>
+        <td><div class="text-wrap text-break">Adventure, Social, Exploration</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">A</div></td>
+                <td><div class="text-wrap text-break">2019</div></td>
+        <td><div class="text-wrap text-break">10</div></td>
+        <td><div class="text-wrap text-break">20</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Relaxing, Uplifting, Mystical</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo, Party (Local)</div></td>
+        <td><div class="text-wrap text-break">Low</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Good performance with touch controls and gamepad support">Good performance with touch controls and gamepad support</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Sky offers a serene and emotionally engaging experience that encourages exploration and social connection. However, its slow pace and reliance on social interactions may not appeal to players seeking fast-paced gameplay.">Sky offers a serene and emotionally engaging experience that encourages exploration and social connection. However, its ...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Sky: Children of the Light is a social adventure game where players explore beautiful worlds, solve puzzles, and connect with others to uncover the game&#x27;s story. It emphasizes cooperation, exploration, and emotional storytelling in a visually stunning environment.">Sky: Children of the Light is a social adventure game where players explore beautiful worlds, solve puzzles, and connect...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Sky%3A%20Children%20of%20the%20Light" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Sky%3A%20Children%20of%20the%20Light" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Sky%3A%20Children%20of%20the%20Light" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Sky%3A%20Children%20of%20the%20Light&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Sky%3A%20Children%20of%20the%20Light" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Sky%3A%20Children%20of%20the%20Light" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/sky-children-of-the-light" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/sky-children-of-the-light" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Sky%3A%2520Children%2520of%2520the%2520Light" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        <tr>
+        <td>
+            <div class="d-flex flex-column align-items-center text-center">
+                <a href="https://store.steampowered.com/app/701160" target="_blank"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/701160/header.jpg" class="cover img-fluid mb-2" style="max-width:120px;"/><div class="text-wrap text-break fw-semibold" style="max-width: 200px;">Kingdom Two Crowns</div></a>
+            </div>
+        </td>
+        <td><div class="text-wrap text-break">Steam</div></td>
+        <td><div class="text-wrap text-break">Owned on Steam</div></td>
+        <td><div class="text-wrap text-break">Noio, Sugar Glider</div></td>
+        <td><div class="text-wrap text-break">Strategy, Adventure, Indie</div></td>
+        <td><div class="text-wrap text-break">8</div></td>
+        <td><div class="text-wrap text-break">A</div></td>
+                <td><div class="text-wrap text-break">2018</div></td>
+        <td><div class="text-wrap text-break">10</div></td>
+        <td><div class="text-wrap text-break">20</div></td>
+        <td><div class="text-wrap text-break">Moderate</div></td>
+        <td><div class="text-wrap text-break">Challenging, Creative, Cooperative</div></td>
+        <td><div class="text-wrap text-break">High</div></td>
+        <td><div class="text-wrap text-break">Solo, Couch Co-op</div></td>
+        <td><div class="text-wrap text-break">Medium</div></td>
+        <td><div class="text-wrap text-break">4 - Playable</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Runs well with some adjustments, suitable for most players">Runs well with some adjustments, suitable for most players</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Kingdom Two Crowns offers a compelling blend of strategy and exploration that keeps players engaged with its challenging gameplay and cooperative options. However, its complexity and grind may not appeal to those seeking casual or story-driven experiences.">Kingdom Two Crowns offers a compelling blend of strategy and exploration that keeps players engaged with its challenging...</div></td>
+        <td><div class="text-wrap text-break" style="max-width: 400px;" title="Kingdom Two Crowns is a side-scrolling micro-strategy game where players build and defend their kingdom from hordes of enemies, managing resources and expanding their territory. It features pixel art visuals, cooperative multiplayer, and a focus on exploration and defense.">Kingdom Two Crowns is a side-scrolling micro-strategy game where players build and defend their kingdom from hordes of e...</div></td>
+        <td><div class="text-wrap text-break"><div class='d-flex flex-wrap gap-1'><a href="https://steamdb.info/search/?a=app&amp;q=Kingdom%20Two%20Crowns" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">SteamDB</a><a href="https://www.pcgamingwiki.com/wiki/Special:Search?search=Kingdom%20Two%20Crowns" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">PCGamingWiki</a><a href="https://www.mobygames.com/search/quick?q=Kingdom%20Two%20Crowns" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">MobyGames</a><a href="https://www.giantbomb.com/search/?q=Kingdom%20Two%20Crowns&amp;indices[0]=game" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GiantBomb</a><a href="https://gamefaqs.gamespot.com/search?game=Kingdom%20Two%20Crowns" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">GameFAQs</a><a href="https://www.protondb.com/search?q=Kingdom%20Two%20Crowns" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">ProtonDB</a><a href="https://www.metacritic.com/game/kingdom-two-crowns" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">Metacritic</a><a href="https://www.igdb.com/games/kingdom-two-crowns" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">IGDB</a><a href="https://howlongtobeat.com/?q=Kingdom%2520Two%2520Crowns" target="_blank" class="btn btn-outline-secondary btn-sm px-1 py-0">HowLongToBeat</a></div></div></td>
+        </tr>
+        
+        </tbody>
+      </table>
+   
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.bootstrap5.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+  <script src="https://cdn.datatables.net/responsive/2.5.3/js/dataTables.responsive.min.js"></script>
+  <script src="https://cdn.datatables.net/responsive/2.5.3/js/responsive.bootstrap5.min.js"></script>
+  <script src="https://cdn.datatables.net/colreorder/1.6.2/js/dataTables.colReorder.min.js"></script>
+  <script src="https://cdn.datatables.net/colreorder/1.6.2/js/colReorder.bootstrap5.min.js"></script>
+  <script>
+    $(document).ready(function () {
+        $('#games').DataTable({
+            responsive: true,
+            pageLength: 50,
+            lengthMenu: [[10, 50, 100, -1], [10, 50, 100, "All"]],
+            dom: '<"row mb-3"<"col-md-4"l><"col-md-4"B><"col-md-4"f>>rt<"row mt-3"<"col-md-6"i><"col-md-6"p>>',
+            buttons: ['copy', 'csv', 'excel', 'print', 'colvis'],
+            colReorder: true,
+            stateSave: true,
+            order: [[1, 'asc']]
+        });
+    });
+  </script>
+</body>
+</html>
